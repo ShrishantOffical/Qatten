@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.main-container{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background-image: url(https://cdn.pixabay.com/photo/2016/09/28/04/35/classroom-1699745_1280.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+		
+}
+
+.form{
+	height: 440px;
+	width: 420px;
+	padding: 30px;
+	
+	position: absolute;
+	top: 115px;
+	right: 80px;
+	background: transparent;
+	backdrop-filter: blur(7px);
+	border-radius: 30px;
+
+
+}
+
+.login
+{
+	position: absolute;
+	top: 23px;
+	right: 160px;
+	color:royalblue;
+	font-size: 40px;
+
+}
+
+.btn{
+	border: 2px solid white;
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	color: royalblue;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 75px;
+	right: 215px;
+
+}
+
+.newuser{
+	position: absolute;
+	bottom: 85px;
+	right: 130px;
+
+}
+
+input{
+	width: 350px;
+	height: 40px;
+	margin-top: 60px;
+/*	border-radius: 10px;*/
+	font-size: 20px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 3px solid white;
+	color: royalblue;
+
+	}
+
+	a{
+		color: white;
+	}

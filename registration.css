@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+.main-container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: -100px;
+
+
+	}
+
+
+.form-registration
+{
+	background-color: grey;
+	height: 450px;
+	width: 800px;
+	padding: 30px;
+	background: transparent;
+	backdrop-filter: blur(7px);
+	border-radius: 50px;
+	position: absolute;
+	z-index: 1000px;
+	margin-top: 30px;
+
+}
+
+.head{
+	position: absolute;
+	z-index: 1000px;
+	margin-bottom: 500px;
+
+}
+label{
+	color:white;
+	font-weight: bolder;
+}
+
+.Q{
+	color: rebeccapurple;
+	font-size: 60px;
+	font-family: Arial-black;
+}
+
+.atten{
+	font-size: 40px;
+	color: whitesmoke;
+}
+
+.video{
+	height: 720px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+}
